@@ -1,0 +1,224 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="GearRetractCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="114" y="148"/>
+	</widget>
+	<widget field="GearEjectCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="114" y="112"/>
+	</widget>
+	<widget field="Choose-Side-Object" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="13" y="13"/>
+	</widget>
+	<widget field="TestAutoCmdGrp" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="139" y="242"/>
+	</widget>
+	<widget field="navX Discarded Bytes" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="25" y="188"/>
+	</widget>
+	<widget field="navX Integration Control Response Count" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="17" y="215"/>
+	</widget>
+	<widget field="navX Stream Responses" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1147" y="60"/>
+	</widget>
+	<widget field="navX Updates Per Sec" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1152" y="96"/>
+	</widget>
+	<widget field="Auto Selector" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="764" y="398"/>
+	</widget>
+	<widget field="Vision  Probe Offset" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="358" y="291"/>
+	</widget>
+	<widget field="Vision  Wall Offset" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="368" y="264"/>
+	</widget>
+	<widget field="Pwr FrRt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="772" y="248"/>
+		<width>107</width>
+	</widget>
+	<widget field="Pwr RrLt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="653" y="270"/>
+		<width>111</width>
+	</widget>
+	<widget field="Pwr RdRt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="771" y="272"/>
+		<width>108</width>
+	</widget>
+	<widget field="Pwr FrLt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="648" y="246"/>
+		<width>115</width>
+	</widget>
+	<widget field="Vision TgtCorr Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="326"/>
+	</widget>
+	<widget field="Probe LmtSw" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="761" y="482"/>
+		<width>156</width>
+	</widget>
+	<widget field="Vision CurrYaw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="402" y="489"/>
+	</widget>
+	<widget field="Vision tgtFlag" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="414" y="196"/>
+		<width>120</width>
+	</widget>
+	<widget field="Vision tgtDist" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="391" y="237"/>
+	</widget>
+	<widget field="Vision tgtAngleY" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="394" y="392"/>
+	</widget>
+	<widget field="Vision tgtAngleX" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="392" y="357"/>
+	</widget>
+	<widget field="Vision COGY" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="483" y="167"/>
+		<width>119</width>
+	</widget>
+	<widget field="Vision COGX" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="350" y="164"/>
+		<width>126</width>
+	</widget>
+	<widget field="Blue Led" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1512" y="83"/>
+	</widget>
+	<widget field="Red Led" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1511" y="63"/>
+	</widget>
+	<widget field="ResetGyro" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="347" y="552"/>
+	</widget>
+	<widget field="Shooter Cnt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="722" y="22"/>
+		<width>152</width>
+		<height>22</height>
+	</widget>
+	<widget field="Shooter RPM" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="717" y="54"/>
+		<width>157</width>
+	</widget>
+	<widget field="Encoder Right Cnt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1460" y="105"/>
+	</widget>
+	<widget field="navX Port Resets" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1470" y="185"/>
+	</widget>
+	<widget field="Sonar Right Dist" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="418" y="110"/>
+		<width>164</width>
+	</widget>
+	<widget field="Sonar Volt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1478" y="416"/>
+	</widget>
+	<widget field="DriveStraightDistCmd: default" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="338" y="589"/>
+	</widget>
+	<widget field="Encoder Right Cnt 2" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1432" y="531"/>
+	</widget>
+	<widget field="Winch LmtSw" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="755" y="639"/>
+		<width>180</width>
+	</widget>
+	<widget field="Trans Pot Value" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="678" y="113"/>
+	</widget>
+	<widget field="Trans Pot Pos" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="689" y="85"/>
+	</widget>
+	<widget field="Gear RotSnsr" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="761" y="449"/>
+		<width>158</width>
+	</widget>
+	<widget field="Gear Hopper" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1472" y="595"/>
+	</widget>
+	<widget field="Eject Rear LmtSw" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="743" y="576"/>
+		<width>189</width>
+	</widget>
+	<widget field="Eject Fwd LmtSw" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="745" y="607"/>
+		<width>189</width>
+	</widget>
+	<widget field="TransRight LmtSw" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="742" y="545"/>
+		<width>190</width>
+	</widget>
+	<widget field="TransLeft LmtSw" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="752" y="517"/>
+		<width>180</width>
+	</widget>
+	<widget field="GearManualRotateCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1211" y="325"/>
+	</widget>
+	<widget field="IR Prox Right Dist" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1436" y="386"/>
+	</widget>
+	<widget field="IR Prox Right Volt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1433" y="364"/>
+	</widget>
+	<widget field="IR Prox Left Dist" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1442" y="341"/>
+	</widget>
+	<widget field="IR Prox Left Volt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1439" y="319"/>
+	</widget>
+	<widget field="Drivetrain Average Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="402" y="43"/>
+		<width>200</width>
+		<height>22</height>
+	</widget>
+	<widget field="Drivetrain Average Distance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="393" y="75"/>
+		<width>226</width>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="23" y="300"/>
+		<height>396</height>
+	</static-widget>
+	<widget field="TestFwdCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1210" y="625"/>
+	</widget>
+	<widget field="LoggingOnCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="342" y="626"/>
+	</widget>
+	<widget field="LoggingOffCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="519" y="628"/>
+	</widget>
+	<widget field="TestPtTurnCmdGrp" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1213" y="488"/>
+	</widget>
+	<widget field="LoggingPrintCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="335" y="660"/>
+	</widget>
+	<widget field="DrivePointTurnCmd: default" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1182" y="259"/>
+	</widget>
+	<widget field="Encoder Right Dist" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1437" y="560"/>
+	</widget>
+	<widget field="Gyro Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="445" y="16"/>
+		<width>126</width>
+	</widget>
+	<widget field="Encoder Left Dist" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1203" y="559"/>
+	</widget>
+	<widget field="Encoder Left Cnt" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1206" y="530"/>
+	</widget>
+	<widget field="Choose-Action" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="146" y="16"/>
+	</widget>
+	<widget field="Choose-Location" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="16" y="81"/>
+	</widget>
+	<widget field="LoggingClearCmd" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="514" y="664"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>

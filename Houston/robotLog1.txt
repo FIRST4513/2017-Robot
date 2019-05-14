@@ -1,0 +1,6 @@
+Log File Created
+[15.000000] Starting Autonomous
+[15.000000] Starting Smartdashboard Update
+[15.000000] Starting Autonomous
+[15.000000] Starting Smartdashboard Update
+[15.000000] Stopping Autonomous
