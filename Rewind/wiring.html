@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 400px;
+
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+                    <h2>DIO</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                                               <tr><td>0</td><td>GearHandler GearLoadedSnsr</td><td></td></tr>
+            	                                         <tr><td>1</td><td>GearHandler GearRotateSnsr</td><td></td></tr>
+            	                                         <tr><td>2</td><td>Drivetrain LeftDriveEncoder</td><td></td></tr>
+            	                                         <tr><td>3</td><td>Drivetrain LeftDriveEncoder</td><td></td></tr>
+            	                                         <tr><td>4</td><td>Drivetrain RightDriveEncoder</td><td></td></tr>
+            	                                         <tr><td>5</td><td>Drivetrain RightDriveEncoder</td><td></td></tr>
+            	                                                     <tr><td>7</td><td>Winch WinchLmtSw</td><td></td></tr>
+            	                                         <tr><td>8</td><td>GearHandler GearTransRightLmtSw</td><td></td></tr>
+            	                                         <tr><td>9</td><td>GearHandler GearTransLeftLmtSw</td><td></td></tr>
+            	                                         <tr><td>10</td><td>GearHandler GearEjectFwdLmtSw</td><td></td></tr>
+            	                                         <tr><td>11</td><td>GearHandler GearEjectRearLmtSw</td><td></td></tr>
+            	                                         <tr><td>12</td><td>FuelHandler FuelDisEnc</td><td></td></tr>
+            	                                         <tr><td>13</td><td>FuelHandler FuelDisEnc</td><td></td></tr>
+            	                                                                                                                                                     	    </table>
+                    <h2>PWMs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Motor</th>
+                <th>Type</th></tr>
+	                                               <tr><td>0</td><td>FuelHandler FuelCollSpdCtrl</td><td>Talon</td></tr>
+            	                                         <tr><td>1</td><td>FuelHandler FuelDisSpdCtrl</td><td>Talon</td></tr>
+            	                                         <tr><td>2</td><td>Winch WinchSpdCtr</td><td>Spark</td></tr>
+            	                                                                 <tr><td>5</td><td>GearHandler GearTransSpdCtrl</td><td>Talon</td></tr>
+            	                                         <tr><td>6</td><td>Drivetrain FrontRightSpdCtr</td><td>Talon</td></tr>
+            	                                         <tr><td>7</td><td>Drivetrain RearRightSpdCtr</td><td>Talon</td></tr>
+            	                                         <tr><td>8</td><td>Drivetrain FrontLeftSpdCtr</td><td>Talon</td></tr>
+            	                                         <tr><td>9</td><td>Drivetrain RearLeftSpdCtr</td><td>Talon</td></tr>
+            	                                                                 <tr><td>12</td><td>FuelHandler FuelShakerSpdCtrl</td><td>Talon</td></tr>
+            	                                                                                                                                                                 	    </table>
+     
+        
+                    <h2>Relays</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Relay</th></tr>
+	                                                           <tr><td>1</td><td>GearHandler GearRotSpike</td><td></td></tr>
+            	                                                     <tr><td>3</td><td>GearHandler GearEjectSpike</td><td></td></tr>
+            	                                                                                                                                                                                                                                                                             	    </table>
+    
+                    <h2>Analog Inputs</h2>
+	    <table><tr>
+	        <th class="pound">#</th>
+	        <th>Sensor</th></tr>
+	                                               <tr><td>0</td><td>Drivetrain IrProxLeft</td><td></td></tr>
+            	                                         <tr><td>1</td><td>Drivetrain IrProxRight</td><td></td></tr>
+            	                                         <tr><td>2</td><td>Drivetrain Sonar</td><td></td></tr>
+            	                                         <tr><td>3</td><td>GearHandler GearTransPot</td><td></td></tr>
+            	                                                                                                                                                                                                                                                                             	    </table>
+    
+                                                                                                                                                                                                                                                            
+          </body>
+</html>
